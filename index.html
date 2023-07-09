@@ -1,0 +1,92 @@
+<!DOCTYPE HTML>
+<html lang="es">
+<head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>DAUT - Servicio y confort a su alcance</title>
+		<link rel="stylesheet" type="text/css" href="style/estilos.css">		
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100&family=Lobster&family=Righteous&family=Yesteryear&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+	<div class="modal animate-zoom" id="login">
+		<span class="display-topright">
+		<a onclick="document.getElementById('login').style.display='none'" class="button" style="margin-top: 8px; margin-right: 8px;">
+		<big>&times;</big></a></span>
+		<div class="modal-content">
+			<h1 class="center font-30">Acceso de usuarios</h1>
+			<p class="center-login"><input type="text" name="usuario" placeholder="Usuario"></p>
+			<p class="center-login"><input type="password" name="password" placeholder="Contraseña"></p>
+			<p class="center-login"><input type="submit" value="Ingresar" class="button-login"></p>
+		</div>
+	</div>
+	<header class="header" id="header">		
+		<img src="image/daut_letras.png" width="150"> 
+		<nav>
+			<a href="#inicio" class="hover-color-verde-oscuro shadow"><i class="fa fa-home"></i> Inicio</a>
+			<a href="#cobertura" class="hover-color-verde-oscuro shadow"><i class="fa fa-map-o"></i> Cobertura</a>	
+			<a href="#qs" class="hover-color-verde-oscuro shadow"><i class="fa fa-info-circle"></i> Quienes somos</a>
+			<a href="#contacto" class="hover-color-verde-oscuro shadow"><i class="fa fa-headphones"></i> Contactanos</a>	
+			<a onclick="document.getElementById('login').style.display='block';" class="hover-color-verde-oscuro shadow right"><i class="fa fa-user"></i> Usuarios</a>	
+		</nav>
+	</header>	
+	<main>			
+	
+		<div id="inicio">
+			<img src="image/auto.png" width="500">
+			
+			<section id="firstSecc">
+				<p>Contamos con vehiculos de alta y mediana gama registrados y verificados.</p>
+				<p>Servicio de traslado ejecutivo.</p>
+				<p>Alquiler de vehiculos con chofer para cumpleaños, bodas y otros eventos.</p>
+				<p>Viajes de larga distancia.</p>
+			</section>
+		</div>
+	
+		
+		
+		<section id="cobertura">
+			<p>Tenemos amplia cobertura a lo largo del país. <img src="image/argentina.png" height="150"></p>
+		</section>
+		
+		<section id="qs" class="shadow">
+			<h1>Quienes somos <i class="fa fa-group"></i></h1>
+			<p>Somos una empresa joven con el objetivo de prestar un servicio de calidad y la comodidad<br>con vehiculos de alta y mediana gama,<br> para viajes con confort la seguridad de nuestros clientes.</p>
+			<p><i class="fa fa-map-marker"></i> Todos los viajes se realizan con seguimiento satelital de los vehiculos.</p>
+		</section>			
+		
+		<section id="contacto">
+		<h2>Contactate con nosotros</h2>
+			<div>
+			<form>
+				<p><input type="text" class="input" placeholder="Diganos su nombre"></p>
+				<p><input type="text" class="input" placeholder="Escriba un asunto"></p>
+				<p><input type="text" class="input" placeholder="Ingrese su casilla de E-mail"></p>
+				<p><textarea rows="20" placeholder="Deje aqui su consultamo o sugerencia"></textarea></p>
+				<p><input type="submit" value="Enviar" class="hover-color-verde-oscuro"></p>
+			</form>
+			</div>
+		</section>
+	</main>	
+	<footer>
+		<div class="div-pie">
+			<div class="div-footer">	
+				<p class="footerEstilo button-footer"><a href="">Términos y condiciones</a></p>
+				<p class="footerEstilo button-footer"><a href="">Politicas de privacidad</a></p>
+			</div>
+	
+			<div class="div-footer">	
+				<p class="footerEstilo button-footer"><i class="fa fa-facebook-square"></i> Facebook</p>
+				<p class="footerEstilo button-footer"><i class="fa fa-instagram"></i> Instagram</p>
+				<p class="footerEstilo button-footer"><i class="fa fa-twitter-square"></i> Twitter</p>
+				<p class="footerEstilo button-footer"><i class="fa fa-apple"></i> AppStore</p>
+				<p class="footerEstilo button-footer p-footer"><i class="fa fa-android"></i> Google Play</p>
+			</div>
+		</div>
+	<p class="center margin-top-100 texto-blanco">Diseño Fernando Marino</p>
+	</footer>
+</body>
+</html>
